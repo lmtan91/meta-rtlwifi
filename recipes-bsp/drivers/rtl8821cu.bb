@@ -3,12 +3,12 @@ DESCRIPTION = "RTL8821CU kernel driver"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=b234ee4d69f5fce4486a80fdaf4a4263"
 
-SRCREV = "2dace83e5f4cada52bbe3930b864c3eb82390b1f"
-SRC_URI = "git://github.com/spriteguard/rtl8821CU;protocol=https "
+SRCREV = "60aff8729fe4c46ba9a8a629060862ebe6a603f2"
+SRC_URI = "git://github.com/lmtan91/rtl8821CU;protocol=https "
 
 S = "${WORKDIR}/git"
 
-PV = "5.8.1.2-git"
+PV = "5.8.1-git"
 
 DEPENDS = "virtual/kernel"
 
